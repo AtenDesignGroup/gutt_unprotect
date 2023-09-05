@@ -1,7 +1,8 @@
-name: My workflow
+name: Guttmacher Unprotect
 type: module
-description: Provide custom workflow for state machine
-core: 8.x
-package: Custom
+description: Provides the ability to automate unprotecting content
+core_version_requirement: ^9 || ^10
+package: Guttmacher
 dependencies:
   - state_machine
+  - workflow:workflow
